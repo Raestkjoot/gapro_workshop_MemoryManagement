@@ -35,7 +35,7 @@ int main() {
 
 	// __EXERCISE 5__
 	std::cout << "__EXERCISE 5__\n";
-	//TODO 3.5: Change player position to 3, 7 and print it to the terminal
+	// TODO 3.5: Change player position to 3, 7 and print it to the terminal
 
 	std::cout << "Player position = "
 		<< "TODO"
