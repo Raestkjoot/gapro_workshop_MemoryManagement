@@ -20,9 +20,7 @@ int main() {
 	// __EXERCISE 2__
 	std::cout << "__EXERCISE 2__\n";
 	int val = 5;
-	int* ptr = nullptr;
 	PrintPointerValue(&val);
-	PrintPointerValue(ptr);
 	std::cout << "\n";
 
 	// __EXERCISE 3__
@@ -62,8 +60,6 @@ void SetToZero() {
 }
 
 void PrintPointerValue(int* ptr) {
-	// TODO 1.2: Check if pointer is valid
-	
 	// TODO 1.2: print The address stored in the pointer, followed by the value pointed to.
 	//       It should look something like this when done: 
 	//       Address: 000000B3E3CFFD44, Value: 5.

@@ -38,10 +38,11 @@ void MinMax(std::vector<int> numbers, int min, int max) {
 	auto maxIter = std::max_element(numbers.begin(), numbers.end());
 
 	// TODO 2.1: Set min and max to the values pointed to by minIter and maxIter
+	//     Hint: Iterators are essentially just pointers that point to an element in a collection
 
-	std::cout << "Inside function: (min, max) = (" << *minIter << ", " << *maxIter << ").\n";
+	std::cout << "Inside function: (minIter, maxIter) = (" << *minIter << ", " << *maxIter << ").\n";
 }
 
 void Swap(int x, int y) {
-	// TODO 2.1: Use references to swap the values in x and y outside the function.
+	// TODO 2.2: Use references to swap the values in x and y outside the function.
 }
