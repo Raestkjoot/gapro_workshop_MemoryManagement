@@ -46,12 +46,9 @@ void PrintPointerValue(int* ptr) {
 }
 
 void SetToZeroAndPrint(std::shared_ptr<int> x) {
-	// TODO 3.3: Change parameter to weak_ptr instead of shared_ptr and use it to set x's value to 0 and print
+	// TODO 3.3: Change parameter to weak_ptr instead of shared_ptr and use it to set the value to 0 and print
 	*x = 0;
 
-	std::cout
-		<< "*x = " << *x << ". "
-		<< "Should be: 0. "
-		<< "Test passed: " << (*x == 0 ? "True" : "False")
-		<< "\n";
+	std::cout << "value set to " << *x << "\n"
+		<< "TODO: Should use weak_ptr parameter" << "\n";
 }

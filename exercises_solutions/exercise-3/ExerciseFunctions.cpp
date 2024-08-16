@@ -47,15 +47,11 @@ void PrintPointerValue(std::shared_ptr<int> ptr) {
 }
 
 void SetToZeroAndPrint(std::weak_ptr<int> x) {
-	// TODO 3.3: Change parameter to weak_ptr instead of shared_ptr and use it to set x's value to 0 and print
+	// TODO 3.3: Change parameter to weak_ptr instead of shared_ptr and use it to set the value to 0 and print
 	if (auto tmp = x.lock()) {
 		*tmp = 0;
 
-		std::cout
-			<< "*tmp = " << *tmp << ". "
-			<< "Should be: 0. "
-			<< "Test passed: " << (*tmp == 0 ? "True" : "False")
-			<< "\n";
+		std::cout << "value set to " << *tmp << "\n";
 	}
 
 }
