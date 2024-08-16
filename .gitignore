@@ -1,5 +1,7 @@
 */out
+/out
 bin/
 build/
+/.vs/
 */.vs/
 .idea/
